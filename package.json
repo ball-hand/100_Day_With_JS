@@ -1,0 +1,16 @@
+{
+  "name": "fundamentals",
+  "version": "1.0.0",
+  "main": "Script.js",
+  "scripts": {
+    "start": "nodemon Script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

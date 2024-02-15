@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fundamentals</title>
+  </head>
+  <body style="text-align: center">
+    <h1>Hello word!!</h1>
+    <button onclick="count(Car)">Hello</button>
+    <h1 id="Date"></h1>
+
+    <script>
+      const Car = ["Toyota supra", "Red", 3000];
+
+      const tester = () => {
+        let text =''
+        for(let x in Car){
+            text += Car[x]
+            console.log(text.split())
+            
+        }
+      };
+
+      const count = (value) => {
+        document.getElementById("Date").innerHTML = tester();
+      };
+
+      function SetDate() {
+        document.getElementById("Date").innerHTML = Date();
+      }
+    </script>
+  </body>
+</html>
