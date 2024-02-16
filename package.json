@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "Script.js",
   "scripts": {
-    "start": "nodemon Script.js",
+    "start": "nodemon class.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

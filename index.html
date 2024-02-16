@@ -7,10 +7,22 @@
   </head>
   <body style="text-align: center">
     <h1>Hello word!!</h1>
-    <button onclick="count(Car)">Hello</button>
+    <button onclick="sayHello(prompt('Namanya siapa sih'))">Hello</button>
     <h1 id="Date"></h1>
 
-    <script>
+    <script type="module">
+      import helloword from './Script2.js'
+        //Learn about string 
+
+      console.log(myProfile);
+      const tryArray=['Ikba Handini']
+      console.log(tryArray);
+
+      const sayHello=(Name)=>{
+        document.getElementById("Date").innerHTML = `Hello ${Name}`
+      }
+
+
       const Car = ["Toyota supra", "Red", 3000];
 
       const tester = () => {
@@ -18,7 +30,7 @@
         for(let x in Car){
             text += Car[x]
             console.log(text.split())
-            
+              
         }
       };
 
