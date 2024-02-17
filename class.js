@@ -24,7 +24,23 @@ class Determinant{
     }
 }
 
+class newMahasiswa extends Mahasiswa {
+    constructor(Nama,Nim,Alamat,ttl){
+        super(Nama,Nim,Alamat);
+        this.ttl= ttl
+    }
+}
 
+maba = new newMahasiswa(
+    "Ujang sopian",
+    10222191,
+    "Padakembang",
+    Date()
+)
+
+
+
+console.log(maba);
 
 Mahasiswa2 = new Mahasiswa("Ikbal Handini",130903,"Tasikmalaya")
 console.log(Mahasiswa2);
